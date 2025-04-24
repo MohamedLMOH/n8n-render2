@@ -8,17 +8,17 @@ services:
     startCommand: n8n start
     envVars:
       - key: N8N_HOST
-        value: n8n-lmohbk.onrender.com
+        value: n8n-render2-hb6s.onrender.com
       - key: N8N_PORT
         value: 10000
       - key: N8N_PROTOCOL
         value: https
       - key: WEBHOOK_TUNNEL_URL
-        value: https://n8n-lmohbk.onrender.com
+        value: https://n8n-render2-hb6s.onrender.com
       - key: WEBHOOK_URL
-        value: https://n8n-lmohbk.onrender.com
+        value: https://n8n-render2-hb6s.onrender.com
       - key: N8N_EDITOR_BASE_URL
-        value: https://n8n-lmohbk.onrender.com
+        value: https://n8n-render2-hb6s.onrender.com
       - key: DB_TYPE
         value: postgresdb
       - key: DB_POSTGRESDB_HOST
